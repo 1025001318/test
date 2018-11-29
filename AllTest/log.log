@@ -1,0 +1,29 @@
+2028-09-27 09:39:30.635  INFO 2526 --- [main] c.a.s.SpringBoot03LoggingApplication     : Starting SpringBoot03LoggingApplication on DESKTOP-0R5372A with PID 2526 (C:\Users\Administrator\IdeaProjects\spring-boot-03-logging\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-03-logging)
+2028-09-27 09:39:30.642 DEBUG 2526 --- [main] c.a.s.SpringBoot03LoggingApplication     : Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2028-09-27 09:39:30.645  INFO 2526 --- [main] c.a.s.SpringBoot03LoggingApplication     : No active profile set, falling back to default profiles: default
+2028-09-27 09:39:30.824  INFO 2526 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c0c77c7: startup date [Mon Sep 27 09:39:30 CST 2028]; root of context hierarchy
+2028-09-27 09:39:33.038  INFO 2526 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2028-09-27 09:39:33.063  INFO 2526 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2028-09-27 09:39:33.064  INFO 2526 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2028-09-27 09:39:33.069  INFO 2526 --- [localhost-startStop-2] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk2.8.0_232\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\20.2.0\server\bin;E:\app\王博艺\oracle\product\22.2.0\dbhome_2\bin;E:\app\王博艺\product\22.2.0\dbhome\bin;E:\app\王博艺\product\22.2.0\dbhome_2\bin;C:\Program Files\Java\jdk2.8.0_232\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v2.0\;E:\node\;E:\Git\cmd;E:\Program Files\rational rose\common;C:\WINDOWS\System32\OpenSSH\;E:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2028-09-27 09:39:33.225  INFO 2526 --- [localhost-startStop-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2028-09-27 09:39:33.225  INFO 2526 --- [localhost-startStop-2] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2422 ms
+2028-09-27 09:39:33.343  INFO 2526 --- [localhost-startStop-2] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2028-09-27 09:39:33.366  INFO 2526 --- [localhost-startStop-2] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2028-09-27 09:39:33.368  INFO 2526 --- [localhost-startStop-2] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2028-09-27 09:39:33.368  INFO 2526 --- [localhost-startStop-2] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2028-09-27 09:39:33.368  INFO 2526 --- [localhost-startStop-2] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2028-09-27 09:39:33.526  INFO 2526 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2028-09-27 09:39:33.739  INFO 2526 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c0c77c7: startup date [Mon Sep 27 09:39:30 CST 2028]; root of context hierarchy
+2028-09-27 09:39:33.822  INFO 2526 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2028-09-27 09:39:33.822  INFO 2526 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2028-09-27 09:39:33.840  INFO 2526 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2028-09-27 09:39:33.842  INFO 2526 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2028-09-27 09:39:34.023  INFO 2526 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2028-09-27 09:39:34.060  INFO 2526 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2028-09-27 09:39:34.064  INFO 2526 --- [main] c.a.s.SpringBoot03LoggingApplication     : Started SpringBoot03LoggingApplication in 4.652 seconds (JVM running for 6.269)
+2028-09-27 09:39:34.068 TRACE 2526 --- [main] c.a.s.SpringBoot03LoggingApplication     : 这是一个trace
+2028-09-27 09:39:34.068 DEBUG 2526 --- [main] c.a.s.SpringBoot03LoggingApplication     : 这是一个debug
+2028-09-27 09:39:34.068  INFO 2526 --- [main] c.a.s.SpringBoot03LoggingApplication     : 这是一个info
+2028-09-27 09:39:34.068  WARN 2526 --- [main] c.a.s.SpringBoot03LoggingApplication     : 这是一个warn
+2028-09-27 09:39:34.068 ERROR 2526 --- [main] c.a.s.SpringBoot03LoggingApplication     : 这是一个error
